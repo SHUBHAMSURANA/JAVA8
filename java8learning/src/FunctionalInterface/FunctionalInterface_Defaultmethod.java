@@ -28,7 +28,6 @@ public class FunctionalInterface_Defaultmethod implements PI1, PI2 {
     public void show() {
         PI1.super.show();
     }
-
 }
 
 

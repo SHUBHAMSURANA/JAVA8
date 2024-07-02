@@ -1,5 +1,6 @@
 package FunctionalInterface;
-
+// if we inherit then we cannot use lambda function
+// public class FunctionalInterface_call_lambdaexpression implements FunctionalInterface_Interface{   
 public class FunctionalInterface_call_lambdaexpression {
     public static void main(String[] args) {
         FunctionalInterface_Interface a = ()->"Function interface merthod call";

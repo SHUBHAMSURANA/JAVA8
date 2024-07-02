@@ -13,7 +13,6 @@ interface A {
     {
         System.out.println("Default PI1");
     }
-
 }
 
 public class FunctionalInterface_StaticMethod implements A {
@@ -21,7 +20,7 @@ public class FunctionalInterface_StaticMethod implements A {
     static void sayHello() {
         System.err.println("helooo static wala!!");
     }
-
+    
     @Override
     public
     String getName() {
@@ -33,7 +32,7 @@ public class FunctionalInterface_StaticMethod implements A {
         FunctionalInterface_StaticMethod t = new FunctionalInterface_StaticMethod();
         t.show();
 
-        //A a = () -> "Sosteare enginner";
+        
         System.out.println(t.getName());
         sayHello();
         A.sayHello();

@@ -7,5 +7,7 @@ public class FunctionalInterface_call_lambdaexpression {
         System.err.println(a.getName());
         FunctionalInterface_Interface c = ()->" reuse the Function interface merthod call";
         System.err.println(c.getName());
+        // test the git commint
+        //FFGFG
     }
 }
